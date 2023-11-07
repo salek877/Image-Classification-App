@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
  Future<void> _predictImage() async {
   if (_imageFile == null) return;
 
-  final uri = Uri.parse('http://localhost:8000/predict/'); //API endpoint
+  final uri = Uri.parse('https://salek877-fastapi-for-classifier.hf.space/predict/'); //API endpoint
   final request = http.MultipartRequest('POST', uri);
 
   request.files.add(
