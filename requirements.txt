@@ -1,7 +1,0 @@
-pillow
-uvicorn 
-fastapi 
-python-multipart
-starlette
-tensorflow
-numpy
